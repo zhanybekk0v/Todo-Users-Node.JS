@@ -1,0 +1,14 @@
+<div class="wrapper">
+  <button class="prev__button">
+  <a href="/">Назад к админскому панелю</a>
+  </button>
+  <div class="wrapper-title">
+    <h2>Список пользователей</h2>
+  </div>
+  <div class="wrapper-descr">
+    {{#each textUser}}
+    <label for="">ФИО</label>
+    <h4>{{this}}</h4>
+    {{/each}}
+  </div>
+</div>
